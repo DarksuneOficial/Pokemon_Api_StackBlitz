@@ -1,0 +1,22 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "nombre": "Bulbasaur",
+      "tipo": "Planta/Veneno",
+      "generacion": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Charmander",
+      "tipo": "Fuego",
+      "generacion": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Squirtle",
+      "tipo": "Agua",
+      "generacion": 1
+    }
+  ]
+}

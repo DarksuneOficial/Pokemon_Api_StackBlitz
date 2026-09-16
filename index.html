@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador Pokémon Pro</title>
+    <!-- PEGA ESTA LÍNEA AQUÍ ADENTRO -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>⚡ Pokédex Interactiva ⚡</h1>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="inputBusqueda"
+          placeholder="Ej. pikachu, charizard o 25"
+        />
+        <button id="btnBuscar">Buscar</button>
+      </div>
+
+      <div id="resultado" class="card hidden">
+        <!-- Aquí se muestran los datos de la PokeAPI con diseño -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
